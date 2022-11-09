@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins:wght@500;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins';
+  font-weight: 500;
+  overflow: hidden;
+  background-color: #F0F2F5;
+}
+
+.section-login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.section-login-content-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #1877f2;
+  width: 525px;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.section-login-content-subtitle {
+  font-size: 30px;
+  line-height: 26px;
+  color: #000;
+  width: 500px;
+}
+.section-login-input {
+  width: 430px;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px #0000004d;
+  border-radius: 10px;
+  padding: 30px;
+}
+.input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #969696;
+  padding-left: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.section-login-btn {
+  width: 350px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #1877f2;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+}
+.section-login-btn:hover {
+  background-color: #003f92;
+}
+
+.cod-del-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cod-del {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.cod-del:hover {
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgb(175, 174, 174);
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.section-login-btn-new{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #42B72A;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+.section-login-btn-new:hover{
+  background-color: #168101;
+
+}
+.new-col{
+  font-size: 15px;
+  text-align: center;
+  width: 400px;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+.new-col-link{
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #000;
+
+}
